@@ -103,7 +103,7 @@ void loop() {
     Serial.println(F("OK!"));
   }
 
-  delay(1);
+  delay(1000);
 }
 void MQTT_connect() {
   int8_t ret;
